@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Image-Guided vs. Manual Marking for Toric IOL Alignment | PubEngine Science</title>
+<meta name="description" content="Demo resource page for the PubEngine PDF viewer web component.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="pubengine/pubengine.css">
+<script type="module" src="pubengine/pubengine.js"></script>
+</head>
+<body>
+
+
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="#" class="logo">
+      <span class="logo__mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="15" cy="15" r="14" stroke="currentColor" stroke-width="2"/>
+          <path d="M9 15C9 11.6863 11.6863 9 15 9C18.3137 9 21 11.6863 21 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="15" cy="15" r="3.5" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="logo__text">PubEngine<span class="logo__accent">Science</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#">Therapeutic Areas</a>
+      <a href="#" class="is-active">Resource Library</a>
+      <a href="#">Clinical Research</a>
+      <a href="#">Medical Education</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <button type="button" class="icon-btn" aria-label="Search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" class="icon-btn" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="#">Therapeutic Areas</a>
+    <a href="#" class="is-active">Resource Library</a>
+    <a href="#">Clinical Research</a>
+    <a href="#">Medical Education</a>
+    <a href="#">Contact Us</a>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <section class="hero">
+    <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="breadcrumb">
+          <a href="#">Resource Library</a>
+          <span aria-hidden="true">/</span>
+          <span>Cataract Diagnostics &amp; Equipment</span>
+        </p>
+        <span class="eyebrow">Cataract Diagnostics &amp; Equipment</span>
+        <h1>&ldquo;Digital Image-Guided vs. Manual Marking Approaches for Toric IOL Implantation: A Summary of Clinical Evidence&rdquo;</h1>
+        <p class="hero__meta">Updated Sept 8, 2026 &nbsp;&middot;&nbsp; 7 min read</p>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" class="hero__svg">
+          <defs>
+            <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#5eead4"/>
+              <stop offset="100%" stop-color="#38bdf8"/>
+            </linearGradient>
+          </defs>
+          <circle cx="180" cy="180" r="150" fill="none" stroke="url(#ringGrad)" stroke-width="1.5" stroke-dasharray="4 10" opacity="0.6"/>
+          <circle cx="180" cy="180" r="115" fill="none" stroke="url(#ringGrad)" stroke-width="1.5" opacity="0.35"/>
+          <circle cx="180" cy="180" r="80" fill="rgba(94,234,212,0.06)" stroke="url(#ringGrad)" stroke-width="2"/>
+          <circle cx="180" cy="180" r="46" fill="rgba(56,189,248,0.12)" stroke="url(#ringGrad)" stroke-width="2"/>
+          <circle cx="180" cy="180" r="14" fill="url(#ringGrad)"/>
+          <line x1="180" y1="30" x2="180" y2="330" stroke="url(#ringGrad)" stroke-width="1" opacity="0.3"/>
+          <line x1="30" y1="180" x2="330" y2="180" stroke="url(#ringGrad)" stroke-width="1" opacity="0.3"/>
+          <circle cx="180" cy="30" r="4" fill="#5eead4"/>
+          <circle cx="308" cy="255" r="4" fill="#38bdf8"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container content-grid">
+
+      <div class="viewer-col">
+        <div class="viewer-card">
+          <pub-engine src="https://alcon.widen.net/s/kzxnqwnnjd/GLBIMG-ITM-2500152-Rendition-viewable_rendition__v.pdf"></pub-engine>
+        </div>
+      </div>
+
+      <div class="summary-col">
+        <h2>Summary</h2>
+        <p>
+          Accurate rotational alignment of toric intraocular lenses (IOLs) is one of the strongest predictors
+          of visual outcome in astigmatism-correcting cataract surgery. Small errors compound quickly:
+          published estimates put the refractive penalty at roughly a few percent of residual astigmatism
+          for every degree the lens drifts from its intended meridian.
+        </p>
+        <p>
+          Manual marking &mdash; ink, mechanical, or slit-lamp based &mdash; has long been the default approach,
+          but it is sensitive to operator technique, cyclotorsion between the seated and supine position,
+          fixation shifts, and marking-ink spread. Digital image-guided systems attempt to remove much of
+          that variability by fusing preoperative biometry with an intraoperative, landmark-based overlay
+          that tracks the eye in real time.
+        </p>
+        <p>
+          This backgrounder reviews a set of clinical studies and a pooled meta-analysis comparing the two
+          approaches. Across the reviewed evidence, digital guidance is associated with tighter alignment
+          tolerances and lower mean residual astigmatism than manual marking &mdash; though the size of the
+          benefit varies by study, and it does not always translate into a visual acuity difference patients
+          would notice.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat__value">3</span>
+            <span class="stat__label">Clinical studies reviewed</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">&lt;5&deg;</span>
+            <span class="stat__label">Typical digital alignment error</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">1</span>
+            <span class="stat__label">Pooled meta-analysis included</span>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <button type="button" class="btn btn--primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3v13m0 0-5-5m5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            Download Backgrounder
+          </button>
+          <button type="button" class="btn btn--ghost">Share</button>
+        </div>
+
+        <p class="footnote">
+          Demo content for illustration only &mdash; not a real clinical publication. Reference: 1. Illustrative
+          figure used for layout purposes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="related-section">
+    <div class="container">
+      <div class="related-section__head">
+        <h2>Related Publications</h2>
+        <a href="#" class="view-more">View More
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <div class="card__thumb card__thumb--a" aria-hidden="true"></div>
+          <span class="card__tag">Cataract Diagnostics &amp; Equipment</span>
+          <h3>Refractive Accuracy of a Swept-Source OCT Biometer in Presbyopia-Correcting IOLs</h3>
+          <a href="#" class="card__link">Learn More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb card__thumb--b" aria-hidden="true"></div>
+          <span class="card__tag">Cataract Diagnostics &amp; Equipment</span>
+          <h3>Visual and Patient-Reported Outcomes of Mix-and-Match Trifocal &amp; EDOF IOL Implantation</h3>
+          <a href="#" class="card__link">Learn More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb card__thumb--c" aria-hidden="true"></div>
+          <span class="card__tag">Refractive Surgery</span>
+          <h3>Long-Term Rotational Stability of a Single-Piece Toric IOL Platform</h3>
+          <a href="#" class="card__link">Learn More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#" class="logo logo--footer">
+        <span class="logo__mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="14" stroke="currentColor" stroke-width="2"/>
+            <path d="M9 15C9 11.6863 11.6863 9 15 9C18.3137 9 21 11.6863 21 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="15" cy="15" r="3.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="logo__text">PubEngine<span class="logo__accent">Science</span></span>
+      </a>
+      <p>A fictional resource portal built to demo the PubEngine PDF viewer web component. No links or downloads on this site are real.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Explore</h4>
+      <a href="#">Therapeutic Areas</a>
+      <a href="#">Resource Library</a>
+      <a href="#">Clinical Research</a>
+      <a href="#">Medical Education</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#">Medical Information</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Cookie Notice</a>
+      <a href="#">Privacy Notice</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Follow</h4>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn" class="icon-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.97-1.8-2.97-1.82 0-2.1 1.42-2.1 2.88V21h-4V9Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer__legal">
+    <p>&copy; 2026 PubEngine Science. Demo site &mdash; not a real company or product website.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
